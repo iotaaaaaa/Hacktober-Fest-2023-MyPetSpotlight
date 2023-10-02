@@ -5,7 +5,7 @@ const cardDivs = document.querySelectorAll('.card');
   const liCount = liElements.length;
   const ulElements = cardDiv.querySelectorAll('ul');
 
-  if (liCount >=4) {
+  if (liCount >3) {
     ulElements.forEach(ulElement => {
       ulElement.style.cssText = "height: 90px; overflow-y: scroll; padding-right: 10px;";
     });
